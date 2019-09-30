@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Task 1.1</title>
+		
+	</head>
+	<body>
+		<header>My first lab on HTML</header>
+		<nav>
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+			</ul>
+		</nav>
+		<main>It's main block.</main>
+		<section>My first section</section>
+		<article>Hello. My first article.</article>
+		<aside>Hello. My first aside</aside>
+		<audio controls>
+			<source src="Kaleo - Way Down We Go.mp3" type="audio/mpeg">
+			Your browser not supported.
+		</audio>
+		<p>Hello. <bdi style="color: red">My first bdi</bdi></p>
+		<canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+		<script>
+			var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+			ctx.fillStyle = "#FF0000";
+			ctx.fillRect(0, 0, 80, 100);
+		</script>
+		<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+			<input list="name">
+			<datalist id="name">
+				<option>Petro</option>	
+				<option>Sveta</option>
+				<option>Vera</option>
+				<option>Bohdan</option>
+				<option>Vlad</option>
+			</datalist>
+			<input id='a'>+<input id='b'>=<output name='x' for='a b'>My first output</output>
+		</form>
+		<details>
+			<summary>Copyright 1999-2018.</summary>
+			<p> - by Refsnes Data. All Rights Reserved.</p>
+			<p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+		</details>
+		<dialog>Hello. My first dialog</dialog>
+		<embed src="pushka.swf" type="application/x-shockwave-flash">
+		<figure>
+			<img src="Fedora.svg.png" alt="Fedora">
+			<figcaption>Fedora</figcaption>
+		</figure>
+		<p>Hello. <mark>My first mark</mark></p>
+		<div contextmenu="menuitem">
+			<p>Right-click</p>		
+			<menu type="context" id="menuitem">
+				<menuitem onclick="window.location.reload();" label="Refresh"><menuitem>
+			</menu>
+		</div>
+		<meter value="0.6">60%</meter>
+		<picture>
+			<source media="(max-width: 1250px)" srcset="Fedora.svg.png">
+			<img src="debian.png" width="25%" height="25%">
+		</picture>
+		<span>My first progres</span> <progress value="22" max="100"></progress>
+		<template>
+			<h2>Debian</h2>
+			<img src="debian.png">
+		</template> 
+		<p>Hello ddddddddddddddddddddddssssssffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffsssssssssssssssssssssssssssssssssss<wbr>ssssssssssssssssssssssssssssssssssssdddddddddddddddddddddddddddd</p>
+		<time>18:18</time><br>
+		<video controls>
+			<source src="https://youtu.be/dsUXAEzaC3Q">
+		</video>
+		<footer>Creat by Petro</footer>
+	</body>
+</html>
